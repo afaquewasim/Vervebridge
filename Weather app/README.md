@@ -36,7 +36,7 @@ This is a simple React application that fetches and displays the current weather
 
 3. Create a `.env` file in the root directory and add your WeatherAPI key:
     ```plaintext
-    REACT_APP_WEATHER_API_KEY=your_api_key_here
+    WEATHER_API_KEY=your_api_key_here
     ```
 
 4. Add `.env` to `.gitignore`:
