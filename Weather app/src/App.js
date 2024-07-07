@@ -11,7 +11,7 @@ const Home = () => {
   const formattedDate = today.toLocaleDateString('en-US', options);
 
   const fetchCurrentWeather = async (loc) => {
-    const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=94ea05c94a3a4237bae65825240507&q=${loc}&aqi=no`);
+    const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${process.env.WEATHER_API_KEY}&q=${loc}&aqi=no`);
     const data = await response.json();
     setCurrentWeather(data);
   };
