@@ -43,19 +43,18 @@ Quiz App is a web-based application that allows users to select and take quizzes
 
 quiz-app/
 ├── public/
-│ ├── index.html
+│   ├── index.html
 ├── src/
-│ ├── Components/
-│ │ ├── Login.jsx
-│ │ ├── Signup.jsx
-│ │ ├── Quiz.jsx
-│ ├── data/
-│ │ ├── quizzes.js
-│ ├── App.jsx
-│ ├── index.js
+│   ├── Components/
+│   │   ├── Login.jsx
+│   │   ├── Signup.jsx
+│   │   ├── Quiz.jsx
+│   ├── data/
+│   │   ├── quizzes.js
+│   ├── App.jsx
+│   ├── index.js
 ├── package.json
 ├── README.md
-
 
 ## Usage
 
