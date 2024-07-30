@@ -1,0 +1,6 @@
+.main-img {
+    width: 1500px;
+    height: 300px;
+    object-fit: cover;
+    /* Ensure the image covers the entire height */
+}
