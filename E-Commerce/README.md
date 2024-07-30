@@ -32,7 +32,7 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/ecommerce-app.git
+    git clone https://github.com/your-username/vervebridge/ecommerce-app.git
     cd ecommerce-app
     ```
 
